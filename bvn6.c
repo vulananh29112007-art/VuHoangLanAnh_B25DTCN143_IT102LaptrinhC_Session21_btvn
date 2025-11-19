@@ -22,7 +22,7 @@ int main() {
         getchar();
 
         printf("Nhap diem trung binh: ");
-        scanf("%f",student[i].grade);
+        scanf("%f",&student[i].grade);
     }
     	printf("THONG TIN SINH VIEN\n");
 	for(int i = 0;i<n;i++){
@@ -52,5 +52,6 @@ int main() {
     return 0;
     
 }
+
 
 
