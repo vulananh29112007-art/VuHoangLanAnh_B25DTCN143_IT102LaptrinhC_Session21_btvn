@@ -28,7 +28,7 @@ int main() {
 	for(int i = 0;i<n;i++){
     	printf("Ten sv: %s\n",student[i].name);
     	printf("Tuoi sv: %d\n",student[i].age);
-    	printf("Diem tb sv: %s\n",student[i].grade);
+    	printf("Diem tb sv: %f\n",student[i].grade);
 	}
 
     int nameSearch, found = -1;
@@ -52,6 +52,7 @@ int main() {
     return 0;
     
 }
+
 
 
 
